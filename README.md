@@ -61,6 +61,7 @@ En este punto puedes tener acceso con permiso de escritura.  Se movio el certifi
 ```
 mv /tmp/<cert>.0 /system/etc/security/cacerts/
 chmod 644 /system/etc/security/cacerts/<cert>.0
+reboot
 ```
 
 Hasta este punto Burpsuite ya es capaz de interceptar https. Ahora una cosa es interceptar tradico y otra cosa es el SSL pinning. En este tutorial puedes encontrar mas informacion asi como el otro metodo de "parchear la app".
